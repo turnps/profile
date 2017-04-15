@@ -6,7 +6,7 @@ COMMING SOON PAGE
     * Set your date here  (YEAR, MONTH (0 for January/11 for December), DAY, HOUR, MINUTE, SECOND)
     * according to the GMT+0 Timezone
     **/
-    var launch = new Date(2015, 06, 14, 11, 00);
+    var launch = new Date(2017, 10, 15, 12, 00);
     /**
     * The script
     **/
@@ -43,7 +43,7 @@ COMMING SOON PAGE
             seconds.html('<h1>'+s+'</h1><p>Second'+(s>1?'s':''),'</p>');
             setTimeout(setDate, 1000);
 
-            message.html('OUR SITE IS NOT READY YET, BUT WE ARE COMING SOON');
+            message.html('MY SITE IS NOT READY YET, BUT I AM COMING SOON');
         }
     }
 })(jQuery);
